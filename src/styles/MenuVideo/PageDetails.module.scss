@@ -1,0 +1,222 @@
+.VideoDetails{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 15px !important;
+    .bodyContents{
+        display: grid;
+        grid-template-columns: 65% 35%;
+        .contentBodyNews{
+            margin: 0px 30px 0px 0px;
+            .titleContent{
+                padding: 0;
+                font-weight: 600;
+                font-size: 32px;
+                color: #1f231d;
+                line-height: 140%;
+            }
+            .groupExtenxion{
+                height: 39px;
+                display: flex;
+                justify-content: space-between;
+                .IconTacgia{
+                    line-height: 42px;
+                    display: flex;
+                    .nameTacgia{
+                        color: #029875;
+                        font-size: 14px;
+                        font-weight: 700;
+                        margin: 0px 10px 0px 10px;
+                    }
+                    .spaceStyle{
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #5e615d;
+                        margin: 0px 10px 0px 10px;
+                    }
+                    .styleTimeDetails{
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #5e615d;
+                        margin: 0px 10px 0px 10px;
+                    }
+                }
+                .IconShare{
+                    margin-top: 4px;
+                }
+            }
+            .styleDangerous{
+                margin: 20px 0px;
+                .vjs-poster{
+                    height: 59vh !important;
+                }
+                // iframe{
+                //     max-width: 100%;
+                // }
+                p{
+                    margin: 0 0 1em;
+                    line-height: 160%;
+                    text-rendering: optimizeSpeed;
+                    font-size: 19px;
+                    font-weight: 400;
+                }
+                img {
+                    cursor: pointer;
+                    width: 100%;
+                    height: auto;
+                }
+                iframe {
+                    width: 100%;
+                }
+                video {
+                    width: 100% !important;
+                    height: inherit !important;
+                }
+                // .video-custom{
+                //     // height: 50% !important;
+                //     max-height: 50vh !important;
+                //     video{
+                //         max-height: 50vh !important;
+                //     }
+                // }
+                em{
+                    // width: 100%;
+                    height: auto;
+                    max-width: 100%;
+                    margin: 0px auto;
+                    display: block;
+                    margin-bottom: 16px;
+                    font-size: 15px;
+                    font-style: italic;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: center;
+                }
+            }
+            
+        }
+    }
+    .TinTucdangxem{
+        .Topichot{
+            margin-bottom: 10px;
+            height: 27px;
+            border-left: 6px solid #029875;
+            p{
+                font-size: 20px;
+                color: #34404b;
+                line-height: 32px;
+                font-weight: 700;
+                margin-left: 12px;
+            }
+        }
+        div{
+            .GroupTopicById{
+                display: flex;
+                margin: 0px 0px 10px 0px;
+                .iconPic{
+                    position: relative;
+                    img{
+                        border-radius: 5px;
+                        object-fit: cover !important;
+                    }
+                    
+                }
+                .titleTopicss{
+                    // padding: 0px 0px 0px 14px;
+                    a{
+                        font-weight: 700;
+                        margin: 0 11px;
+                        color: rgba(0,0,0,.85);
+                        line-height: 140% !important;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        line-height: 25px;
+                        overflow: hidden;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                    }
+                    p{
+                        margin: 0 11px!important;
+                        font-size: 12px!important;
+                        color: #a0a4a8!important;
+                    }
+                }
+            }
+            .GroupTopicById:hover{
+                .titleTopicss{
+                    a{
+                        color: #06c;
+                    }
+                }
+            }
+        }
+    }
+}
+.video-custom{
+    height: max-content !important;
+}
+.spanSpace{
+    margin: 7px 0;
+    border-bottom: 1px solid #d8d9d8;
+}
+
+@media only screen and (max-width: 576px) {
+    .VideoDetails{  
+        .bodyContents{
+            display: unset !important;
+            grid-template-columns: unset !important;
+            .contentBodyNews{
+                width: 100%;
+                padding: 0px 10px;
+            }
+            .TinTucdangxem{
+                padding: 0px 10px;
+            }
+        }
+    }
+    .IconTacgia{
+        line-height: unset !important;
+        display: unset !important;
+        img{
+            float: left;
+        }
+        .nameTacgia{
+            padding-left: 40px !important;
+            margin-top: 10px !important;
+            width: 160px !important;
+            line-height: 0px!important;
+        }
+        .spaceStyle{
+            display: none!important;
+        }
+        .styleTimeDetails{
+            padding-left: 40px !important;
+            margin-top: 6px !important;
+            width: 185px !important;
+            line-height: unset!important;
+        }
+    }
+    .video-custom{
+        height: max-content !important;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .VideoDetails{  
+        .bodyContents{
+            display: unset !important;
+            grid-template-columns: unset !important;
+            .contentBodyNews{
+                width: 100%;
+                padding: 0px 10px;
+            }
+            .TinTucdangxem{
+                padding: 0px 10px;
+            }
+        }
+    }
+    .menuDesktop{
+        display: block !important;
+    }
+
+}

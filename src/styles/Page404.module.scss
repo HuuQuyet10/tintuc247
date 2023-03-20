@@ -1,0 +1,112 @@
+.Box_Search{
+    background-color: #ECF2F8;
+    height: 100vh;
+    .Box_Search_Icon{
+        max-width: 950px;
+        margin: 0px auto;
+    }
+    .input_Search_Page{
+        max-width: 453px;
+        margin: 0px auto;
+        max-height: 46px;
+        span{
+            height: 46px !important;
+            font-weight: 400;
+            font-size: 28px;
+            // border: 1px solid #EEEFF4;
+            border-radius: 16px;
+            margin-top: 3px;
+        }
+    }
+    .Box_go_to_home{
+        max-width: 1200px;
+        margin: 0px auto;
+        text-align: center;
+        padding: 31px 0px 138px 0px;
+        .Btn_go_to_home{
+            font-weight: 700;
+            color: #FFFFFF;
+            font-size: 20px;
+            background: #029875;
+            padding: 14px 50px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+    }
+}
+.Box_footer_error{
+    padding: 13px 54px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 92px;
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    .footer_Left{
+        display: flex;
+        .footer_Left_icon{
+            width: 67px;
+            height: 67px;
+        }
+        .footer_Left_details{
+            margin-left: 12px;
+            margin-top: 3px;
+            p:nth-child(1){
+                // font-family: "SF Pro Display";
+                font-weight: 700;
+                font-size: 28px;
+                margin: 0px;
+                color: #029875;
+                line-height: initial;
+            }
+            p:nth-child(2){
+                margin: 3px 0px 0px 0px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: initial;
+            }
+        }
+    }
+    .footer_Right{
+        display: flex;
+        .text_download_free{
+            font-weight: 700;
+            color: #040C22;
+            line-height: initial;
+            font-size: 24px;
+            margin: 0px 12px 0px 0px;
+            height: auto;
+            align-self: center;
+            text-decoration: none;
+        }
+        .box_icon_download{
+            margin-right: 12px;
+            margin-top: 8px;
+            align-self: center;
+            a{
+                margin: 0px;
+                padding: 0px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 576px) {
+    .input_Search_Page{
+        padding: 0px 10px;
+    }
+    .Box_footer_error{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .input_Search_Page{
+        padding: 0px 10px;
+    }
+    .Box_footer_error{
+        display: none;
+    }
+}

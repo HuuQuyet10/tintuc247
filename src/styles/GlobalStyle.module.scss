@@ -1,0 +1,26 @@
+.groupBoxBreadcrumb{
+    margin: 0px;
+    display: flex;
+    .PageIndex{
+        font-weight: 600;
+        font-size: 15px;
+        cursor: pointer;
+        a {
+            color: #029875;
+        }
+    }
+    .PageCurrent{
+        font-weight: normal;
+        font-size: 15px;
+        cursor: pointer;
+        a {
+            color: #7D8498;
+        }
+    }
+    .IconArrow{
+        i {
+            font-size: 16px;
+            margin: 0px 5px;
+        }
+    }
+}

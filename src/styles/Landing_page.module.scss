@@ -1,0 +1,340 @@
+
+.totalContainer{
+    margin: 0px auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    height: 56px;
+    .iconLogo{
+        cursor: pointer;
+        z-index: 9999;
+    }
+    .containerDowload{
+        display: flex;
+        .titleApp{
+            line-height: 56px;
+            padding: 0px 26px;
+            background: #F8F8FA;
+            border-radius: 20px;
+            display: flex;
+            margin-right: 20px;
+            .StyleThumbTitleApp{
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 48px;
+                margin: 0 0 0 13px !important;
+            }
+        }
+        .containerButton{
+            height: 0px !important;
+            .downloadButton{
+                cursor: pointer;
+                padding: 12px 32px;
+                line-height: 48px;
+                color: white;
+                background: #029875;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+.introduceApp{
+    // top: 15px;
+    width: 100%;
+    z-index: 1;
+    // position: absolute;
+    // margin: 50px 0;
+    margin-top: 8px;
+    background-image: url('../../public/resource/backgroundIndex.jpg');
+    height: 547px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .contannerIntroApp{
+        display: flex;
+        margin: 0px auto;
+        width: 1200px;
+        padding-top: 94px;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        .groupInforAppp{
+            text-align: center;
+            max-width: 348px;
+            // line-height: 10px;
+            .styleAdsApp{
+                margin-bottom: 0px;
+                font-weight: bold;
+                font-size: 40px;
+                color: #FDFF2F;
+            }
+            .styleContenttitle{
+                // margin: 0px;
+                margin: 0 0 40px 0;
+                padding: 0px;
+                font-weight: 500;
+                font-size: 20px;
+                color: #FFFFFF;
+            }
+            .containerGroupDowload{
+                background: #00AC84;
+                border-radius: 8px;
+                .downloadAppnow{
+                    padding: 30px 0px 20px 0px;
+                    font-weight: 500;
+                    font-size: 17px;
+                    color: white;
+                }
+                
+                .Icondowload{
+                    justify-content: center;
+                    display: flex;
+                    padding-bottom: 30px;
+                    .style_Image{
+                        cursor: pointer;
+                        
+                    }
+                    .style_Image:nth-child(1){
+                        margin-right: 15px;
+                    }
+                }
+            }
+            .buttonClicktoIndex{
+                text-align: center;
+                margin-top: 40px;
+                span{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.styleGroupIntroExtenxion{
+    margin: 0px auto;
+    width: 1200px;
+    .ListExtenxion{
+        margin-top: 80px;
+        font-weight: 500;
+        color: #000000;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        text-align: center;
+        font-size: 17px;
+        div{
+            padding: 0px 5px;
+            p{
+                margin-top: 26px;
+            }
+        }
+    }
+}
+.textButton{
+   max-width: 1200px;
+   margin: 0px auto;
+   padding: 80px 0px;
+    text-align: center;
+   .buttonDownload2{
+    .titleDownloadApp{
+        background: #029875;
+        padding: 14px 60px;
+        width: max-content;
+        // height: 48px;
+        margin: 0px;
+        color: #FFFFFF;
+        font-weight: bold;
+        border-radius: 24px;
+        font-size: 20px;
+    }
+   }
+}
+.styleSpan{
+    max-width: 1200px;
+    margin: 0px auto;
+    border: 2px solid #029875;
+}
+.footerPage{
+    max-width: 1200px;
+    margin: 0px auto;
+    .MainFooterPage{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        .columfooter{
+            line-height: 25px;
+            margin-top: 20px;
+            // padding-right: 15px;
+            p{
+                margin: 0px;
+                font-size: 13px;
+                padding: 0px;
+                color: #474A57;
+            }
+            .styleTitleFooter{
+                font-weight: bold;
+            }
+            .titlefooterr{
+                font-weight: 600;
+                font-size: 15px;
+                color: black;
+                margin-bottom: 12px !important;
+            }
+        }
+        .columfooter:nth-child(1){
+            margin-right: 100px;
+        }
+        
+    }
+    .stylemailFooter{
+        color: #474A57 !important;
+    }
+    .styleContractAds{
+        text-align: center;
+        border: 1px solid #EEEFF4;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        p{
+            padding: 10px 0px !important;
+            font-weight: 600 !important;
+            font-size: 15px !important;
+            color: #18191F !important;
+        }
+    }
+}
+.footerCopyright{
+    max-width: 1200px;
+    margin: 0px auto;
+    p{
+        margin: 20px 0px;
+        color: #7D8498;
+        font-weight: normal;
+        font-size: 13px;
+    }
+}
+.LogoWithMobile{
+    display: none;
+}
+
+// reponsive mobile
+@media only screen and (max-width: 576px) {
+    .LogoWithMobile{
+        display: block !important;
+    }
+    .totalContainer{
+        // padding-top: unset;
+        // width: unset !important;
+        display: none !important;
+    }
+    .containerDowload{
+        display: none !important;
+    }
+    .introduceApp, .styleImagemobile{
+        margin-top: unset !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+    .MainFooterPage{
+        padding: 0px 14px !important;
+        grid-template-columns: 100% !important;
+    }
+    .contannerIntroApp{
+        display: unset !important;
+        display: unset !important; 
+        margin: 0px auto !important;
+        width: unset !important;
+        padding-top: 42px !important;
+        display: grid !important;
+        grid-template-columns: 100% !important;
+        margin: 0 17px !important;
+        .groupInforAppp{
+            max-width: unset !important;
+        }
+    }
+    .columfooter{
+        margin-right: unset !important;
+    }
+    .buttonClicktoIndex{
+        margin-bottom: 40px !important;
+    }
+    .styleGroupIntroExtenxion{
+        width: unset !important;
+        .ListExtenxion{
+            grid-template-columns: 100% !important;
+            div{
+                p{
+                    margin: 18px 0px 40px 0px !important;
+                }
+            }
+        }
+    }
+    .textButton{
+        padding: 65px 0px !important;
+    }
+    .footerCopyright{
+        padding: 0px 14px;
+        max-width: unset !important;
+        p{
+            padding-bottom: 20px !important;
+        }
+    }
+}
+.Image_iconMobile{
+    object-fit: contain !important;
+}
+@media only screen and (max-width: 1200px) {
+    .LogoWithMobile{
+        display: block !important;
+    }
+    .totalContainer{
+        // padding-top: unset;
+        // width: unset !important;
+        display: none !important;
+    }
+    .containerDowload{
+        display: none !important;
+    }
+    .introduceApp, .styleImagemobile{
+        margin-top: unset !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+    .MainFooterPage{
+        padding: 0px 14px !important;
+        grid-template-columns: 100% !important;
+    }
+    .contannerIntroApp{
+        display: unset !important;
+        display: unset !important; 
+        margin: 0px auto !important;
+        width: unset !important;
+        padding-top: 42px !important;
+        display: grid !important;
+        grid-template-columns: 100% !important;
+        margin: 0 17px !important;
+        .groupInforAppp{
+            max-width: unset !important;
+        }
+    }
+    .columfooter{
+        margin-right: unset !important;
+    }
+    .buttonClicktoIndex{
+        margin-bottom: 40px !important;
+    }
+    .styleGroupIntroExtenxion{
+        width: unset !important;
+        .ListExtenxion{
+            grid-template-columns: 100% !important;
+            div{
+                p{
+                    margin: 18px 0px 40px 0px !important;
+                }
+            }
+        }
+    }
+    .textButton{
+        padding: 65px 0px !important;
+    }
+    .footerCopyright{
+        padding: 0px 14px;
+        max-width: unset !important;
+    }
+}

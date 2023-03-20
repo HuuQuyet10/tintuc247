@@ -1,0 +1,1218 @@
+@font-face { 
+    font-family: "SF_Pro_Display_Bold";
+    src: url("../../public/font-family/SF-Pro-Display-Heavy.otf");
+}
+.BodyNews{
+    margin: 0px;
+    padding: 0px;
+}
+.TotalBoxMenutop{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.1);
+    height: 56px;
+    .MenuTop_PC{
+        max-width: 1200px;
+        // height: 56px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        .BoxMenu_Left{
+            margin-top: 16px;
+        }
+        .BoxMenu_Right{
+            display: flex;
+            height: max-content;
+            .BoxMenu_Right__icon{
+                span{
+                    span{
+                        margin-top: 39px !important;
+                    }
+                }
+            }
+            .BoxMenu_Right__title{
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 16px;
+                color: #18191F;
+                height: max-content;
+                margin-top: 20px;
+                margin-left: 10px;
+                margin-bottom: 0px;
+                margin-right: 24px;
+            }
+            .BoxMenu_Right__buttonDownload{
+                font-weight: 600;
+                font-size: 15px;
+                color: #FFFFFF;
+                background: #029875;
+                border-radius: 8px;
+                padding: 8px 32px;
+                height: max-content;
+                margin: 8px 0px 0px 0px;
+            }
+        }
+    }
+}
+.MenuTop_PC{
+    div{
+        span{
+            img{
+                z-index: 9999999 !important;
+            }
+        }
+    }
+}
+
+
+.TotalBoxDownload{
+    background: #ECF2F8;
+    .Box_Download_Mobile{
+        display: none;
+    }
+    .Box_Download_PC{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px auto;
+        max-width: 1200px;
+        .Box_Download_Left{
+            .Box_text__update_now{
+                margin-top: 153px;
+                .Left_title{
+                    font-weight: 400;
+                    font-size: 56px;
+                    color: #222222;
+                    line-height: 128.34%;
+                    margin: 0px;
+                }
+            }
+            .Left_docbao24h{
+                font-family: "SF_Pro_Display_Bold";
+                font-weight: 700;
+                font-size: 81px;
+                line-height: 128.34%;
+                color: #029875;
+                margin: 0px 0px 33px 0px;
+            }
+            .Left_decs{
+                font-weight: 400;
+                font-size: 27px;
+                line-height: 24px;
+                color: #94959B;
+                margin: 0px 0px 43px 0px;
+            }
+            .btn_GotoView{
+                padding: 14px 34px;
+                font-weight: 700;
+                font-size: 20px;
+                color: #FFFFFF;
+                background: #029875;
+                border-radius: 8px;
+            }
+            .Left_download_in{
+                font-weight: 400;
+                font-size: 27px;
+                color: #090909;
+                line-height: 24px;
+                margin: 55px 0px 28px 0px;
+            }
+            .Box_button_download{
+                .button_download_AppStore{
+                    margin-right: 20px;
+                }
+            }
+        }
+        .Box_Download_Right{
+            .Images_app{
+                margin-top: 75px;
+                margin-bottom: 47px;
+            }
+        }
+    }
+}
+.Box_features{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    .features_ImgPhone{
+        margin-top: 78px;
+        margin-bottom: 60px;
+    }
+    .features_content{
+        margin-top: 119px;
+        margin-left: 51px;
+        .features_title{
+            font-weight: 600;
+            font-size: 40px;
+            color: #222222;
+            line-height: 150%;
+            margin: 0px;
+        }
+        .features_docbao24h{
+            font-family: "SF_Pro_Display_Bold";
+            font-weight: 800;
+            font-size: 40px;
+            color: #029875;
+            line-height: 150%;
+            margin: 0px;
+        }
+        .features_textDeco{
+            font-weight: 400;
+            color: #94959B;
+            font-size: 20px;
+            line-height: 24px;
+            margin: 0px;
+        }
+        .features_Box_ListExtenxion{
+            .ListExtenxion{
+                margin-top: 56px;
+                display: flex;
+                .Extenxion_Details{
+                    margin-left: 33px;
+                    p:nth-child(1){
+                        font-weight: 600;
+                        font-size: 24px;
+                        color: #222222;
+                        line-height: 36px;
+                        margin: 0px;
+                    }
+                    p:nth-child(2){
+                        margin-top: 8px;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #94959B;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.Box_UpdateDetails{
+    background: #ECF2F8;
+    .Body_UpdateDetails{
+        display: flex;
+        max-width: 1200px;
+        margin: 0px auto;
+        justify-content: space-between;
+        .UpdateDetails_Left{
+            .ImagesListDot{
+                margin-top: 109px;
+            }
+            .BoxTextUpdateDetails{
+                position: relative;
+                top: -111px;
+                left: 58px;
+                .UpdateDetails_title{
+                    font-weight: 400;
+                    font-size: 40px;
+                    color: #222222;
+                    line-height: 150%;
+                    margin: 0px;
+                }
+                .UpdateDetails_maxSpeed_exactly{
+                    font-family: "SF_Pro_Display_Bold";
+                    font-size: 50px;
+                    font-weight: 800;
+                    color: #029875;
+                    line-height: 150%;
+                    margin: 0px;
+                }
+                .UpdateDetails_Decst{
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #484848;
+                    margin: 0px;
+                    max-width: 460px;
+    
+                }
+            }
+        }
+        .UpdateDetails_Right{
+            .BoxImages_Dect{
+                margin-top: 87px;
+                margin-bottom: 95px;
+            }
+        }
+    }
+}
+.Box_suggest{
+    display: flex;
+    max-width: 1200px;
+    margin: 0px auto;
+    justify-content: space-between;
+    .Suggest_Left{
+        margin-top: 67px;
+        margin-bottom: 74px ;
+    }
+    .Suggest_Right{
+        margin-top: 163px;
+        .Content_Suggest{
+            background: #E0EAF3;
+            height: 613px;
+            width: 613px;
+            border-radius: 51%;
+            .Suggest_iconTop{
+                position: relative;
+                top: 85px;
+                right: 31px;
+            }
+            .Suggest_ContentText{
+                text-align: center;
+                .Suggest_title{
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 150%;
+                    color: #222222;
+                    margin: 0px;
+                }
+                .Suggest_User{
+                    font-family: "SF_Pro_Display_Bold";
+                    font-weight: bold;
+                    font-size: 50px;
+                    line-height: 150%;
+                    color: #029875;
+                    margin: 10px 0px 10px 0px;
+                }
+                .Suggest_Foller{
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 150%;
+                    margin: 0px 0px 18px 0px;
+                    color: #222222;
+                }
+                .Suggest_TextDect{
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: #484848;
+                    margin: 0px 45px 39px 45px;
+                    line-height: 24px;
+                }
+            }
+            .Suggest_BoxIcon{
+                display: flex;
+                justify-content: space-between;
+            }
+
+        }
+    }
+}
+
+.Box_DailyUtillity{
+    background: #ECF2F8;
+    .Body_DailyUtillity{
+        width: 1200px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        .DailyUtillity_Left{
+            margin-top: 297px;
+            .DailyUtillity_boxText{
+                .DailyUtillity_extenxion{
+                    font-family: "SF_Pro_Display_Bold";
+                    font-weight: 800;
+                    font-size: 50px;
+                    line-height: 150%;
+                    color: #029875;
+                    letter-spacing: 0.02em;
+                    text-transform: uppercase;
+                    margin: 0px;
+                }
+                .DailyUtillity_tienloi{
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 150%;
+                    color: #222222;
+                    margin: 10px 0px 0px 0px;
+                }
+                .DailyUtillity_textDect{
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #484848;
+                    margin: 24px 0px 0px 0px;
+                    max-width: 472px;
+                }
+            }
+            .DailyUtillity_BoxListDot{
+                position: relative;
+                top: -103px;
+                left: 201px;
+            }
+        }
+        .DailyUtillity_Right{
+            margin-top: 88px;
+            margin-bottom: 56px;
+        }
+    }
+}
+
+.Box_ReviewApp{
+    max-width: 1200px;
+    margin: 0px auto;
+    .ReviewHeader{
+        display: flex;
+        justify-content: center;
+        margin: 80px 0px 40px 0px;
+        .ReviewHeader_Title{
+            margin: 0px 10px 0px 20px;
+            p:nth-child(1){
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 150%;
+                color: #222222;
+                letter-spacing: 0.02em;
+                margin: 0px;
+            }
+            p:nth-child(2){
+                font-family: "SF_Pro_Display_Bold";
+                color: #029875;
+                font-weight: 800;
+                font-size: 48px;
+                text-align: center;
+                letter-spacing: 0.02em;
+                margin: 0px;
+                line-height: 150%;
+            }
+        }
+        .ReviewHeader_DauNgoac{
+            position: relative;
+            top: 112px;
+        }
+    }
+}
+.Box_download_Footer{
+    // margin-top: 86px;
+    background: #029875;
+    .Box_download_Content{
+        max-width: 1200px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        .Download_footer_Left{
+            margin-top: 75px;
+            .footer_Left_title{
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 60px;
+                color: #FFFFFF;
+                margin: 0px 0px 5px 0px;
+            }
+            .footer_Left_textDownloadNow{
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 22px;
+                color: #FFFFFF;
+                margin: 0px 0px 30px 0px;
+            }
+            .footer_Left_textDownloadIn{
+                font-weight: 400;
+                font-size: 27px;
+                line-height: 24px;
+                color: #ECECEC;
+                margin: 0px 0px 18px 0px;
+            }
+            .footer_Left_BoxIcon{
+                display: flex;
+                .Left_appstore{
+                    margin-right: 18px;
+                }
+            }
+        }
+        .Download_footer_Right{
+            display: flex;
+            .Right_weather{
+                margin: 74px 30px 0px 0px;
+                line-height: 0px !important;
+            }
+        }
+    }
+}
+
+.boxFooter{
+    display: flex;
+    padding: 40px 0px 20px 0px;
+    margin: 0px auto;
+    width: 1200px;
+    justify-content: space-between;
+    .Footer_Adress_Compaty{
+        margin-top: 10px;
+        p:nth-child(1){
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #18191F;
+            margin: 0px;
+        }
+        p:nth-child(2){
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 22px;
+            margin: 0px;
+            color: #474A57;
+        }
+    }
+    .Footer_Mails_Adress{
+        .Footer_Contract_Ads{
+            padding: 16px 25px;
+            background: #029875;
+            color: white;
+            font-weight: 400;
+            border-radius: 8px;
+            font-size: 17px;
+            a{
+                font-weight: 600;
+                color: white;
+            }
+        }
+    }
+}
+.Footer_Copyright{
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+    p{
+        margin: 0px 0px 18px 0px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #7D8498;
+    }
+}
+
+.box_FooterPage {
+    background: #6dffd0;
+}
+
+
+
+
+
+
+// STYLE PAGE IN MOBILE
+
+@media only screen and (max-width: 576px) {
+    .TotalBoxMenutop{
+        display: none !important;
+    }
+    .MenuTop_Mobile{
+        display: block !important
+    }
+    .Box_Download_PC{
+        display: none !important;
+    }
+    .Box_Download_Mobile{
+        margin: 0px 16px;
+        display: block !important;
+        text-align: center;
+        .BoxMobile_images_Social{
+            padding: 27px 0px 36px 0px;
+        }
+        .BoxMobile_update{
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 128.34%;
+            margin: 0px;
+            color: black;
+        }
+        .BoxMobile_title{
+            font-family: "SF_Pro_Display_Bold";
+            font-weight: bold;
+            font-size: 30px;
+            list-style: 128.34%;
+            color: #029875;
+            margin: 0px;
+        }
+        .BoxMobile_decst{
+            font-weight: 400;
+            font-size: 20px;
+            color: #94959B;
+            line-height: 24px;
+            margin: 0px 0px 32px 0px;
+        }
+        .BoxMobile_gotoRead{
+            background: #029875;
+            padding: 14px 15px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            color: #FFFFFF;
+            margin: 16px 0px 24px 0px;
+        }
+        .BoxMobile_downloadAPPIn{
+            margin: 24px 0px 24px 0px;
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 24px;
+            color: #090909;
+        }
+        .BoxMobile_boxIcon_APP, .BoxMobile_boxIcon_GG{
+            padding: 0px 0px 36px 0px;
+        }
+    }
+    .Box_features{
+        display: unset;
+        .features_ImgPhone{
+            padding: 0px 16px;
+        }
+        .features_content{
+            padding: 0px 16px;
+            margin: 0px;
+            .features_title{
+                text-align: center;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 150%;
+            }
+            .features_docbao24h{
+                text-align: center;
+                font-weight: bold;
+                font-size: 37px;
+                color: #029875;
+            }
+            .features_textDeco{
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+        .features_Box_ListExtenxion{
+            margin-bottom: 40px !important;
+            .ListExtenxion{
+                margin-top: 20px !important;
+                    div:nth-child(1){
+                        max-width: 48px !important;
+                        max-height: 48px !important;
+                    }
+                    .Extenxion_Details{
+                        margin-left: 20px !important;
+                        p:nth-child(1){
+                            font-weight: 700 !important;
+                            font-size: 15px !important;
+                            line-height: 20px !important;
+                            color: #222222 !important;  
+                        };
+                        p:nth-child(2){
+                            font-weight: 400 !important;
+                            font-size: 13px !important;
+                            line-height: 16px !important;
+                            color: #94959B !important;
+                            max-width: 275px;
+                        }
+                    }
+            }
+        }
+    }
+    .Box_UpdateDetails{
+        padding: 0px 16px !important;
+        .Body_UpdateDetails{
+            display: grid !important;
+            max-height: 882px !important;
+            .UpdateDetails_Left{
+                order: 2 !important;
+                .ImagesListDot{
+                    margin: 30px 0px 0px 42px !important;
+                    width: 126px !important;
+                    height: 126px !important;
+                    position: unset !important;
+                }
+                .BoxTextUpdateDetails{
+                    position: relative !important;
+                    text-align: center !important;
+                    top: -27% !important;
+                    left: 1% !important;
+                    .UpdateDetails_title{
+                        font-weight: 400 !important;
+                        font-size: 28px !important;
+                        letter-spacing: 0.36px !important;
+                        color: #222222 !important;
+                        line-height: 34px !important;
+                        margin-bottom: 16px !important;
+                    }
+                    .UpdateDetails_maxSpeed_exactly{
+                        line-height: 117% !important;
+                    }
+                    .UpdateDetails_Decst{
+                        margin-top: 16px;
+                        font-weight: 400;
+                        font-size: 17px;
+                        color: #484848;
+                        line-height: 22px;
+                    }
+                }
+            }
+            .UpdateDetails_Right{
+                order: 1 !important;
+                .BoxImages_Dect{
+                    margin: 42px 0px 0px 0px !important;
+                }
+            }
+        }
+    }
+    .Box_suggest{
+        padding: 0px 16px !important;
+        display: unset !important;
+        .Suggest_Left{
+            margin: 0px auto !important;
+            width: 306px !important;
+            height: 306px !important;
+        }
+        .Suggest_Right{
+            margin: 45% auto 41px auto !important;
+            .Content_Suggest{
+                width: 342px !important;
+                height: 342px !important;
+                .Suggest_iconTop{
+                    top: -13px;
+                    left: 44px;
+                    width: 69px;
+                    height: 69px;
+                }
+                .Suggest_ContentText{
+                    position: relative !important;
+                    top: -30px !important;
+                    .Suggest_title{
+                        font-size: 29px !important;
+                        max-height: 42px !important;
+                    }
+                    .Suggest_User{
+                        font-size: 41px;
+                        line-height: 145%;
+                        color: #029875;
+                        margin: 0px !important;
+                        height: 52px !important;
+                    }
+                    .Suggest_Foller{
+                        margin: 0px 0px 6px 0px !important;   
+                    }
+                    .Suggest_TextDect{
+                        font-size: 16px;
+                        color: #484848;
+                        margin: 0px 45px 39px 45px;
+                        line-height: 20px;
+                    }
+                }
+                .Suggest_BoxIcon{
+                    div:nth-child(1){
+                        max-width: 70px !important;
+                        max-height: 70px !important;
+                        position: relative;
+                        top: -77px !important;
+                        left: 31px !important;
+                    }
+                    div:nth-child(2){
+                        position: relative !important;
+                        max-width: 88px !important;
+                        max-height: 91px !important;
+                        top: -90px !important;
+                        left: -5px !important;
+                    }
+                    
+                }
+            }
+        }
+    }
+    .Body_DailyUtillity{
+        padding: 0px 16px;
+        margin: unset !important;
+        width:  unset !important;
+        display: grid !important;
+        .DailyUtillity_Left{
+            margin-top: unset !important;
+            order: 2 !important;
+            max-height: 345px !important;
+            .DailyUtillity_BoxListDot{
+                top: -17em !important;
+                max-width: 97px !important;
+                max-height: 97px !important;
+            }
+            .DailyUtillity_boxText{
+                text-align: center;
+                .DailyUtillity_extenxion{
+                    font-size: 40px !important;
+                }
+                .DailyUtillity_tienloi{
+                    font-size: 36px !important;
+                }
+                .DailyUtillity_textDect{
+                    max-width: unset !important;
+                    font-size: 17px !important;
+                    padding: 0px 10px;
+                }
+            }
+        }
+        .DailyUtillity_Right{
+            margin-bottom: 27px !important;
+            order: 1 !important;
+            margin-top: 43px !important;
+        }
+    }
+    .Box_ReviewApp{
+        .ReviewHeader{
+            .ReviewHeader_Title{
+                text-align: center;
+                margin: 0px !important;
+                p:nth-child(1){
+                    font-size: 28px !important;
+                }
+                p:nth-child(2){
+                    font-size: 41px !important;
+                }
+            }
+            .ReviewHeader_DauNgoac{
+                top: 90px !important;
+            }
+        }
+    }
+    .Box_download_Content{
+        max-width: unset !important;
+        display: grid !important;
+        .Download_footer_Right{
+            order: 1;
+            .Right_weather{
+                position: relative;
+                left: -25px;
+            }
+        }
+        .Download_footer_Left{
+            order: 2;
+            text-align: center;
+            .footer_Left_title{
+                line-height: unset !important;
+                font-weight: unset !important;
+                font-size: 40px !important;
+                br:nth-child(1){
+                    display: none !important;
+                }
+                span{
+                    font-weight: bold;
+                }
+            }
+            .footer_Left_textDownloadIn{
+                margin-bottom: 30px !important;
+            }
+            .footer_Left_BoxIcon{
+                display: grid !important;
+                justify-content: center !important;
+                div{
+                    width: 278px !important;
+                    height: 78px !important;
+                    margin-bottom: 36px !important;
+                }
+                .Left_appstore{
+                    margin-right: unset !important;
+                }
+            }
+            .footer_Left_textDownloadNow{
+                margin: 16px 0px 30px 0px !important;
+            }
+        }
+    }
+    .boxFooter{
+        width: auto !important;
+        display: unset !important;
+        .Footer_Adress_Compaty{
+            margin: 16px 0px 16px 0px !important;
+            padding: 0px 16px !important;
+            p:nth-child(1){
+                text-align: center !important;
+                margin: 0px 8px 16px 8px !important;
+            }
+            p:nth-child(2){
+                text-align: left !important;
+                margin: 0px 0px 20px 0px !important;
+            }
+        }
+        .Footer_Mails_Adress{
+            padding: 0px 16px !important;
+            width: 100% !important;
+            max-width: unset !important;
+            margin: unset !important;
+            text-align: center;
+            .Footer_Contract_Ads{
+                padding: 16px 22px;
+                font-size: 16px !important;
+            }
+        }
+    }
+    .Footer_Copyright{
+        max-width: unset !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+// STYLE PAGE IN MOBILE
+
+@media only screen and (max-width: 1200px) {
+    .TotalBoxMenutop{
+        display: none !important;
+    }
+    .MenuTop_Mobile{
+        display: block !important
+    }
+    .Box_Download_PC{
+        display: none !important;
+    }
+    .Box_Download_Mobile{
+        margin: 0px 16px;
+        display: block !important;
+        text-align: center;
+        .BoxMobile_images_Social{
+            padding: 27px 0px 36px 0px;
+        }
+        .BoxMobile_update{
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 128.34%;
+            margin: 0px;
+            color: black;
+        }
+        .BoxMobile_title{
+            font-family: "SF_Pro_Display_Bold";
+            font-weight: bold;
+            font-size: 30px;
+            list-style: 128.34%;
+            color: #029875;
+            margin: 0px;
+        }
+        .BoxMobile_decst{
+            font-weight: 400;
+            font-size: 20px;
+            color: #94959B;
+            line-height: 24px;
+            margin: 0px 0px 32px 0px;
+        }
+        .BoxMobile_gotoRead{
+            background: #029875;
+            padding: 14px 15px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            color: #FFFFFF;
+            margin: 16px 0px 24px 0px;
+        }
+        .BoxMobile_downloadAPPIn{
+            margin: 24px 0px 24px 0px;
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 24px;
+            color: #090909;
+        }
+        .BoxMobile_boxIcon_APP, .BoxMobile_boxIcon_GG{
+            padding: 0px 0px 36px 0px;
+        }
+    }
+    .Box_features{
+        display: unset;
+        .features_ImgPhone{
+            padding: 16px 0px 16px 0px;
+            max-width: 450px;
+            margin: 0px auto;
+        }
+        .features_content{
+            padding: 0px 16px;
+            margin: 0px;
+            .features_title{
+                text-align: center;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 150%;
+            }
+            .features_docbao24h{
+                text-align: center;
+                font-weight: bold;
+                font-size: 37px;
+                color: #029875;
+            }
+            .features_textDeco{
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+        .features_Box_ListExtenxion{
+            // margin-bottom: 40px !important;
+            width: max-content;
+            margin: 0px auto 16px auto;
+            .ListExtenxion{
+                margin-top: 20px !important;
+                    div:nth-child(1){
+                        max-width: 48px !important;
+                        max-height: 48px !important;
+                    }
+                    .Extenxion_Details{
+                        margin-left: 20px !important;
+                        p:nth-child(1){
+                            font-weight: 700 !important;
+                            font-size: 15px !important;
+                            line-height: 20px !important;
+                            color: #222222 !important;  
+                        };
+                        p:nth-child(2){
+                            font-weight: 400 !important;
+                            font-size: 13px !important;
+                            line-height: 16px !important;
+                            color: #94959B !important;
+                        }
+                    }
+            }
+        }
+    }
+    .Box_UpdateDetails{
+        padding: 0px 16px !important;
+        .Body_UpdateDetails{
+            display: unset;
+            max-height: 882px !important;
+            .UpdateDetails_Left{
+                order: 2 !important;
+                .ImagesListDot{
+                    margin: 30px 0px 0px 42px ;
+                    width: 126px ;
+                    height: 126px;
+                    position: relative;
+                    top: 13vh;
+                    left: 3vh;
+                }
+                .BoxTextUpdateDetails{
+                    position: relative !important;
+                    text-align: center !important;
+                    top: -27% !important;
+                    left: 1% !important;
+                    .UpdateDetails_title{
+                        font-weight: 400 !important;
+                        font-size: 28px !important;
+                        letter-spacing: 0.36px !important;
+                        color: #222222 !important;
+                        line-height: 34px !important;
+                        margin-bottom: 16px !important;
+                    }
+                    .UpdateDetails_maxSpeed_exactly{
+                        line-height: 117% !important;
+                    }
+                    .UpdateDetails_Decst{
+                        margin: 16px auto 0px auto;
+                        font-weight: 400;
+                        font-size: 17px;
+                        color: #484848;
+                        line-height: 22px;
+                    }
+                }
+            }
+            .UpdateDetails_Right{
+                order: 1 !important;
+                .BoxImages_Dect{
+                    margin: 30px auto 60px auto;
+                    max-width: 500px;
+                }
+            }
+        }
+    }
+    .Box_suggest{
+        padding: 0px 16px !important;
+        display: unset !important;
+        .Suggest_Left{
+            margin: 0px auto !important;
+            width: 306px !important;
+            height: 306px !important;
+        }
+        .Suggest_Right{
+            // margin: 0px auto;
+            .Content_Suggest{
+                width: 342px !important;
+                height: 342px !important;
+                margin: 0px auto;
+                .Suggest_iconTop{
+                    top: -13px;
+                    left: 44px;
+                    width: 69px;
+                    height: 69px;
+                }
+                .Suggest_ContentText{
+                    position: relative !important;
+                    top: -30px !important;
+                    .Suggest_title{
+                        font-size: 29px !important;
+                        max-height: 42px !important;
+                    }
+                    .Suggest_User{
+                        font-size: 41px;
+                        line-height: 145%;
+                        color: #029875;
+                        margin: 0px !important;
+                        height: 52px !important;
+                    }
+                    .Suggest_Foller{
+                        margin: 0px 0px 6px 0px !important;   
+                    }
+                    .Suggest_TextDect{
+                        font-size: 16px;
+                        color: #484848;
+                        margin: 0px 45px 39px 45px;
+                        line-height: 20px;
+                    }
+                }
+                .Suggest_BoxIcon{
+                    div:nth-child(1){
+                        max-width: 70px !important;
+                        max-height: 70px !important;
+                        position: relative;
+                        top: -77px !important;
+                        left: 31px !important;
+                    }
+                    div:nth-child(2){
+                        position: relative !important;
+                        max-width: 88px !important;
+                        max-height: 91px !important;
+                        top: -90px !important;
+                        left: -5px !important;
+                    }
+                    
+                }
+            }
+        }
+    }
+    .Body_DailyUtillity{
+        padding: 0px 16px;
+        margin: unset !important;
+        width:  unset !important;
+        display: grid !important;
+        .DailyUtillity_Left{
+            margin-top: unset !important;
+            order: 2 !important;
+            max-height: 345px !important;
+            .DailyUtillity_BoxListDot{
+                top: -17em !important;
+                max-width: 97px !important;
+                max-height: 97px !important;
+            }
+            .DailyUtillity_boxText{
+                text-align: center;
+                .DailyUtillity_extenxion{
+                    font-size: 40px !important;
+                }
+                .DailyUtillity_tienloi{
+                    font-size: 36px !important;
+                }
+                .DailyUtillity_textDect{
+                    max-width: unset !important;
+                    font-size: 17px !important;
+                    padding: 0px 10px;
+                }
+            }
+        }
+        .DailyUtillity_Right{
+            margin-bottom: 27px !important;
+            order: 1 !important;
+            margin-top: 43px !important;
+            margin: 0px auto;
+            max-width: 500px;
+        }
+    }
+    .Box_ReviewApp{
+        .ReviewHeader{
+            .ReviewHeader_Title{
+                text-align: center;
+                margin: 0px !important;
+                p:nth-child(1){
+                    font-size: 28px !important;
+                }
+                p:nth-child(2){
+                    font-size: 41px !important;
+                }
+            }
+            .ReviewHeader_DauNgoac{
+                top: 90px !important;
+            }
+        }
+    }
+    .Box_download_Content{
+        max-width: unset !important;
+        display: grid !important;
+        justify-content: unset !important;
+        .Download_footer_Right{
+            order: 1;
+            .Right_weather{
+                position: relative;
+                left: -25px;
+            }
+            max-width: 100%;
+            margin: 0px auto;
+        }
+        .Download_footer_Left{
+            order: 2;
+            text-align: center;
+            .footer_Left_title{
+                line-height: unset !important;
+                font-weight: unset !important;
+                font-size: 40px !important;
+                br:nth-child(1){
+                    display: none !important;
+                }
+                span{
+                    font-weight: bold;
+                }
+            }
+            .footer_Left_textDownloadIn{
+                margin-bottom: 30px !important;
+            }
+            .footer_Left_BoxIcon{
+                display: grid !important;
+                justify-content: center !important;
+                div{
+                    width: 278px !important;
+                    height: 78px !important;
+                    margin-bottom: 36px !important;
+                }
+                .Left_appstore{
+                    margin-right: unset !important;
+                }
+            }
+            .footer_Left_textDownloadNow{
+                margin: 16px 0px 30px 0px !important;
+            }
+        }
+    }
+    .boxFooter{
+        width: auto !important;
+        display: unset !important;
+        .Footer_Adress_Compaty{
+            margin: 16px 0px 16px 0px !important;
+            padding: 0px 16px !important;
+            p:nth-child(1){
+                text-align: center !important;
+                margin: 0px 0px 16px 0px !important;
+            }
+            p:nth-child(2){
+                text-align: center !important;
+                margin: 0px 0px 20px 0px !important;
+            }
+        }
+        .Footer_Mails_Adress{
+            width: max-content;
+            padding: 0px 16px !important;
+            max-width: 100%;
+            margin: 0px auto;
+            .Footer_Contract_Ads{
+                padding: 16px 22px;
+                font-size: 16px !important;
+            }
+        }
+    }
+    .Footer_Copyright{
+        max-width: unset !important;
+    }
+}
+
+
+
+
+
+
+
+

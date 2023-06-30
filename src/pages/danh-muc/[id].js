@@ -60,7 +60,7 @@ export default function PageDetails(props) {
         const newPosts = await res.json();
         setState({ lastApis: newPosts.data.last })
         const checkpost = newPosts.data.articles;
-        // setPosts((post) => [...post, ...checkpost]);
+        setPosts((post) => [...post, ...checkpost]);
         setLoadingSpin(false)
     }
 

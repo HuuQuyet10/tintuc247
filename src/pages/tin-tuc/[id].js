@@ -108,7 +108,7 @@ export default function NewsDetails(props) {
         const newPosts = await res.json();
         setState({ lastApis: newPosts.data.last })
         const checkpost = newPosts.data.articles;
-        // setPosts((post) => [...post, ...checkpost]);
+        setPosts((post) => [...post, ...checkpost]);
         setLoading(false)
     };
     const timePost = new Date(props.articleDetails.pubdate);
@@ -403,7 +403,7 @@ export default function NewsDetails(props) {
                     onCancel={() => setIsModalVisible2(false)}
                     className="StyleModalIos"
                     footer={[
-                        <Link href="https://apps.apple.com/app/đọc-báo-24h/id1399377363"><Image src={icon_dow_app} alt="doc-bao-24h-me" /></Link>
+                        <Link href="/"><Image src={icon_dow_app} alt="tin-tuc-247" /></Link>
                     ]}
                 >
                     <DownloadIos />
@@ -415,7 +415,7 @@ export default function NewsDetails(props) {
                     onCancel={() => setIsModalVisible1(false)}
                     className="StyleModalIos"
                     footer={[
-                        <Link href="https://bit.ly/docbao24h_android_home"><Image src={icon_dow_gg} alt="doc-bao-24h-me" /></Link>
+                        <Link href="/"><Image src={icon_dow_gg} alt="tin-tuc-247" /></Link>
                     ]}
                 >
                     <DownloadAndroid />

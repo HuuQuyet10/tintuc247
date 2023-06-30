@@ -44,7 +44,7 @@ function App(props) {
     setLoadingSpin(true);
     const resMore = await getMoreCategorySubId(lastApi, topicId, sub_typeid);
     setLastApi(resMore.last);
-    // setData((posts) => [...posts, ...resMore.articles]);
+    setData((posts) => [...posts, ...resMore.articles]);
     setLoadingSpin(false);
   };
   useEffect(() => {

@@ -54,7 +54,7 @@ export default function HomePages(props) {
         const res = await getApiHomepage(bodyContentHomePage);
         setState({ lastApis: res.data.homeSegments })
         const updatePosts = res.data.articles;
-        // setPosts((post) => [...post, ...updatePosts]);
+        setPosts((post) => [...post, ...updatePosts]);
         setLoading(false)
     }
     const OneHourAgo = (itemTime) => {
